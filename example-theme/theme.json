@@ -1,0 +1,22 @@
+{
+  "name": "Example Theme",
+  "description": "A simple example theme for OMEGA CMS.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "config": {
+    "fonts": {
+      "body": "Roboto, sans-serif",
+      "heading": "Montserrat, sans-serif"
+    },
+    "layout": {
+      "header": "default",
+      "footer": "default",
+      "buttonStyle": "rounded"
+    },
+    "components": {
+      "header": "./components/Header.js",
+      "footer": "./components/Footer.js",
+      "button": "./components/Button.js"
+    }
+  }
+}
